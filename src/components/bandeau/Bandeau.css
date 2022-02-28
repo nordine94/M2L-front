@@ -11,7 +11,7 @@
 }
 
 .bandeau h1 {
-  color: var(--titre);
+  color: var(--blanc);
   font-family: var(--typo_texte);
   font-size: 350%;
   padding-top: 150px;

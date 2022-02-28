@@ -2,7 +2,7 @@
 
 .navbar {
   position: sticky;
-  background-color: var(--marron_beige);
+  background-color: var(--background_color);
   top: 0;
   z-index: 4;
   width: 100%;
@@ -26,14 +26,14 @@
   padding: 0rem;
   list-style: none;
   overflow: hidden;
-  background-color: var(--titre);
+  background-color: var(--background_color);
 }
 
 .navbar li a {
   display: block;
   text-decoration: none;
   color: #fff;
-  font-family: var(--texte), monospace;
+  font-family: var(--typo_texte), monospace;
   font-style: italic;
 }
 
@@ -49,8 +49,8 @@
 .navbar ul li a:hover:after,
 .navbar ul li a:focus:after {
   width: 100%;
-  background: var(--marron_beige);
-  color: var(--texte);
+  background: var(--titre);
+  color: var(--titre);
 }
 
 .navbar ul li a {
@@ -62,7 +62,7 @@
 .navbar ul li a:hover,
 .navbar ul li a:focus {
   font-size: 1.7em;
-  color: var(--marron_beige);
+  color: var(--texte);
   text-decoration: none;
   transition: 0.5s ease-in-out;
 }
@@ -72,7 +72,7 @@
 }
 
 .hamburger .bar:nth-child(2) {
-  background-color: var(--marron_beige);
+  background-color: var(--titre);
 }
 
 .bar {
@@ -82,7 +82,7 @@
   margin: 6px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #fff;
+  background-color: #333;
 }
 
 .nav_menu {
@@ -93,7 +93,7 @@
 }
 
 .nav_link {
-  color: #475569;
+  color: #333;
   padding: 8px;
 }
 
@@ -112,7 +112,7 @@
 }
 
 .nav_link.active {
-  color: var(--marron_beige);
+  color: var(--titre);
 }
 
 @keyframes stickAnim {
