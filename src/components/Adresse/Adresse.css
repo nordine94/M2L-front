@@ -1,0 +1,71 @@
+.adresse_salon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7em;
+}
+
+.adresse_salon .logo_salon {
+    width: 400px;
+    height: auto;
+}
+
+.adresse_salon p {
+    padding: 4px;
+    text-align: center;
+}
+
+.adresse_salon a {
+    color: var(--background_color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.adresse_salon a img {
+    width: 30px;
+    height: auto;
+}
+
+
+/* .adresse_salon p:last-child {
+    font-weight: bold;
+    transition: linear 0.5s;
+}
+
+.adresse_salon p:last-child::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width 0.5s ease, background-color 0.4s ease;
+    right: 0;
+}
+
+.adresse_salon p:last-child:hover::after {
+    background-color: var(--color_melon);
+    width: 100%;
+    transition: linear 0.5s;
+}
+
+.adresse_salon p:last-child:hover {
+    color: var(--color_melon);
+} */
+
+/* ---------------------- media queries ---------------------- */
+
+@media only screen and (max-width: 425px) {
+    .adresse_salon .logo_salon {
+        width: 200px;
+        height: auto;
+    }
+
+    .adresse_salon {
+        font-size: 1.3em;
+    }
+
+}

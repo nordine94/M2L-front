@@ -1,0 +1,57 @@
+.horaires_salon {
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid var(--background_color);
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.horaires_salon h3 {
+    text-align: center;
+    margin-bottom: 5px;
+    color: var(--color_melon);
+    text-decoration: underline;
+}
+
+.horaires_salon table {
+    width: 100%;
+}
+
+.horaires_salon table tr {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap3;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.horaires_salon table tr:first-child td:last-child, 
+.horaires_salon table tr:last-child td:last-child {
+    text-decoration: underline;
+}
+
+
+/* ---------------------- media queries ---------------------- */
+
+@media only screen and (max-width: 425px) {
+  
+    .horaires_salon {
+        padding: 15px;
+    }
+
+    .horaires_salon h3 {
+        font-size: 1em;
+    }
+
+    .horaires_salon table {
+        font-size: 0.8em;
+    }
+
+}
