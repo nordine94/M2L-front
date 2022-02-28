@@ -7,8 +7,9 @@ import "./NavBar.css";
 const Navbar = () => {
   const navLinks = [
     { text: "Accueil", chemin: "/" },
-    { text: "Prestations", chemin: "/prestations" },
-    { text: "Photos", chemin: "/photos" },
+    { text: "Inscriptions", chemin: "/Inscriptions" },
+    { text: "Reservations", chemin: "/Reservations" },
+    { text: "Login", chemin: "/Login" },
     { text: "Contact", chemin: "/contact" },
   ];
 
