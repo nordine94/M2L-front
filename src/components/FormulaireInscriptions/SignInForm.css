@@ -1,0 +1,222 @@
+.containerForm {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    height: 600px;
+    background: var(--background_color);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 15px,
+    rgba(0, 0, 0, 0.12) 0px -12px 10px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.titreForm {
+    position: relative;
+    top: 45px;
+    text-align: center;
+    font-family: var(--typo_texte);
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--texte);
+}
+.prenomInp, .nomInp, .emailInp, .passwordInp, .telephoneInp, .ligueInp {
+    display: block;
+    margin: 0px auto;
+    outline: 0;
+    background: none;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 250px;
+    height: 35px;
+    border: 0;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    color: var(--texte);
+    cursor: pointer;
+}
+.prenomInp {
+    position: absolute;
+    left: 125px;
+    top: 140px;
+}
+.nomInp {
+    position: absolute;
+    left: 450px;
+    top: 140px;
+}
+.emailInp {
+    position: absolute;
+    left: 125px;
+    top: 270px;
+}
+.passwordInp {
+    position: absolute;
+    left: 450px;
+    top: 270px;
+}
+.telephoneInp {
+    position: absolute;
+    left: 125px;
+    top: 400px;
+}
+.ligueInp {
+    position: absolute;
+    left: 450px;
+    top: 400px;
+}
+.labelPrenom, .labelNom, .labelEmail, .labelPassword, .labelTelephone, .labelLigue {
+    font-family: var(--typo_texte);
+    text-transform: uppercase;
+    color: var(--texte);
+}
+.labelPrenom {
+    position: absolute;
+    left: 110px;
+    top: 120px;
+}
+.labelNom {
+    position: absolute;
+    left: 435px;
+    top: 120px;
+}
+.labelEmail {
+    position: absolute;
+    left: 110px;
+    top: 251px;
+}
+.labelPassword{
+    position: absolute;
+    left: 435px;
+    top: 251px;
+}
+.labelTelephone{
+    position: absolute;
+    left: 110px;
+    top: 380px;
+}
+.labelLigue{
+    position: absolute;
+    left: 435px;
+    top: 380px;
+}
+.ligne1 {
+    width: 250px;
+    height: 3px;
+    border-radius: 5px;
+    background: var(--texte);
+    position: absolute;
+    left: 111px;
+    top: 170px;
+}
+.ligne2 {
+    width: 250px;
+    height: 3px;
+    border-radius: 5px;
+    background: var(--texte);
+    position: absolute;
+    left: 436px;
+    top: 170px;
+}
+.ligne3 {
+    width: 250px;
+    height: 3px;
+    border-radius: 5px;
+    background: var(--texte);
+    position: absolute;
+    left: 111px;
+    top: 298px;
+}
+.ligne4 {
+    width: 250px;
+    height: 3px;
+    border-radius: 5px;
+    background: var(--texte);
+    position: absolute;
+    left: 436px;
+    top: 298px;
+}
+.ligne5 {
+    width: 250px;
+    height: 3px;
+    border-radius: 5px;
+    background: var(--texte);
+    position: absolute;
+    left: 111px;
+    top: 430px;
+}
+.ligne6 {
+    width: 250px;
+    height: 3px;
+    border-radius: 5px;
+    background: var(--texte);
+    position: absolute;
+    left: 436px;
+    top: 430px;
+}
+.buttonInp {
+    position: absolute;
+    left: 50%;
+    top: 83%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 9999px;
+    width: 120px;
+    height: 45px;
+    color: #FEFAF0;
+    background: var(--texte);
+    font-family: var(--typo_texte);
+}
+.buttonInp:hover {
+    background: #094480;
+}
+.logo-user1 {
+    width: 25px;
+    height: 25px;
+    color: var(--texte);
+    position: absolute;
+    left: 110px;
+    top: 140px;
+}
+.logo-user2 {
+    width: 25px;
+    height: 25px;
+    color: var(--texte);
+    position: absolute;
+    left: 435px;
+    top: 140px;
+}
+.logo-lock {
+    width: 25px;
+    height: 25px;
+    color: var(--texte);
+    position: absolute;
+    left: 435px;
+    top: 270px;
+}
+.logo-mail {
+    width: 25px;
+    height: 25px;
+    color: var(--texte);
+    position: absolute;
+    left: 111px;
+    top: 270px;
+}
+.logo-phone {
+    width: 25px;
+    height: 25px;
+    color: var(--texte);
+    position: absolute;
+    left: 111px;
+    top: 401px;
+}
+.logo-trophy {
+    width: 25px;
+    height: 25px;
+    color: var(--texte);
+    position: absolute;
+    left: 435px;
+    top: 404px;
+}
