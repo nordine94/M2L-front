@@ -3,6 +3,7 @@ import React, { useEffect }from "react";
 import "./App.css";
 import Home from "./pages/Accueil/Home";
 import SignIn from "./pages/Inscriptions/SignIn";
+import Login from "./pages/IdentificationUser/LoginUser";
 import axios from "axios";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Routes>
             <Route path="/" element={ <Home />} />
             <Route path="/inscriptions" element={ <SignIn />} />
+            <Route path="/login" element={ <Login />} />
           </Routes>
       </Router>
      
