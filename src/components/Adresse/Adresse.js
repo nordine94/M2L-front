@@ -9,7 +9,7 @@ const Adresse = () => {
   const coordonnees = {
     adresse: "63, avenue Anatole France",
     cp: 94600,
-    ville: "Choisy-le-roi",
+    ville: "Nancy",
     tel: "01.48.84.07.33",
   };
 

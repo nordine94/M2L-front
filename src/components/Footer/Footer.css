@@ -1,6 +1,6 @@
 .footer {
-    background-color: var(--color_green);
-    color: var(--background_color);
+    background-color: var(--background_color);
+    color: var(--texte);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +19,7 @@
 }
 
 .footer_up .social {
-    border: 2px solid var(--background_color);
+    border: 2px solid var(--texte);
     border-radius: 30px;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -29,7 +29,7 @@
     text-align: center;
     font-size: 1.7em;
     margin-bottom: 5px;
-    color: var(--color_melon);
+    color: var(--texte);
     text-decoration: underline;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .footer_up .social .logos_social .img_text p{
-    color: var(--background_color);
+    color: var(--texte);
     font-size: 1.2em;
     font-weight: bold;
 }
@@ -90,27 +90,27 @@
 }
 
 .footer_up .social .logos_social .img_text p:hover{
-    color: var(--color_melon);
+    color: var(--blanc);
 }
 
 
 .footer_down {
     width: 80%;
-    color: var(--background_color);
+    color: var(--texte);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .footer_down p a, .footer_down p a:visited{
-    color: var(--background_color);
+    color: var(--texte);
     cursor: pointer;
 }
 
 .footer_down hr {
     margin: 8px;
     width: 100%;
-    border: var(--color_melon) 1px solid;
+    border: var(--texte) 1px solid;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

@@ -14,20 +14,20 @@ const Footer = () => {
     {
       src: message,
       alt: "Logo SMS téléphone",
-      adresse: "tel:+33-6-66-02-94-02",
-      text: "06.66.02.94.02",
+      adresse: "tel:+33-6-25-58-63-74",
+      text: "06.66.02.85.45",
     },
     {
       src: phone,
       alt: "Logo téléphone",
-      adresse: "tel:+33-1-48-84-07-33",
-      text: "01.48.84.07.33",
+      adresse: "tel:+33-1-48-58-75-77",
+      text: "01.25.84.85.33",
     },
 
     {
       src: mail,
       alt: "Logo Mail",
-      adresse: "mailto:hairprestige@gmail.com",
+      adresse: "mailto:ligueLorraine@gmail.com",
       text: "Email",
     },
   ];
@@ -69,7 +69,7 @@ const Footer = () => {
           <Link to="/cgv">Mentions Légales</Link>
         </p>
         <p>
-          Design with ♥ by Nordine KHOUDOU, Guillaume SAULNIER & Matthieu SIEGEL
+          Design with ♥ by Nordine KHOUDOU, Yasim KEBLI, Younes YOUSFI & Xavier TRUONG
           — © 2022 — All Rights Reserved
         </p>
       </div>

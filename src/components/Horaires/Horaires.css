@@ -14,7 +14,7 @@
 .horaires_salon h3 {
     text-align: center;
     margin-bottom: 5px;
-    color: var(--color_melon);
+    color: var(--texte);
     text-decoration: underline;
 }
 
@@ -30,6 +30,7 @@
     align-content: center;
     justify-content: space-between;
     align-items: center;
+    color: var(--texte);
 }
 
 .horaires_salon table tr:first-child td:last-child, 
