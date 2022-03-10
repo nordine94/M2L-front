@@ -1,24 +1,25 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import React, { useEffect }from "react";
+import React, { useState, useEffect }from "react";
 import "./App.css";
 import Home from "./pages/Accueil/Home";
 import SignIn from "./pages/Inscriptions/SignIn";
 import Login from "./pages/IdentificationUser/LoginUser";
 import axios from "axios";
+import { AuthContext } from "../src/components/context/auth";
 
 function App() {
 
-  const getUsers = async () => {
-    const result = await axios.get("http://localhost:8000/admin");
-    console.log(result.data.success);
+  const existingTokens = JSON.parse(localStorage.getItem("tokens"));
+  const [authTokens, setAuthTokens] = useState(existingTokens);
+  
+  const setTokens = (data) => {
+    localStorage.setItem("tokens", JSON.stringify(data));
+    setAuthTokens(data);
   }
-
-  useEffect (() => {
-    getUsers();
-  }, [])
 
   
   return (
+    <AuthContext.Provider value={{ authTokens, setAuthTokens: setTokens }}>
     <div className="App">
       <Router>
           <Routes>
@@ -29,6 +30,7 @@ function App() {
       </Router>
      
     </div>
+    </AuthContext.Provider>
   );
 }
 
