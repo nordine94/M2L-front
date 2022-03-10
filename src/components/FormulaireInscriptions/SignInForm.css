@@ -220,3 +220,109 @@
     left: 435px;
     top: 404px;
 }
+@media screen and (max-width: 800px){
+    .containerForm {
+        width: 500px;
+        height: 600px;
+    }
+    .labelNom {
+        left: 110px;
+        top: 185px;
+    }
+    .nomInp {
+        left: 125px;
+        top: 205px;
+    }
+    .ligne2 {
+        left: 110px;
+        top: 235px;
+    }
+    .logo-user2 {
+        left: 110px;
+        top: 205px;
+    }
+    .labelPassword {
+        left: 110px;
+        top: 315px;
+    }
+    .passwordInp {
+        left: 125px;
+        top: 335px;
+    }
+    .ligne4 {
+        left: 110px;
+        top: 365px;
+    }
+    .logo-lock {
+        left: 110px;
+        top: 335px;
+    }
+    .labelLigue {
+        left: 110px;
+        top: 445px;
+    }
+    .ligueInp {
+        left: 125px;
+        top: 465px;
+    }
+    .ligne6 {
+        left: 110px;
+        top: 495px;
+    }
+    .logo-trophy {
+        left: 110px;
+        top: 465px;
+    }
+    .buttonInp {
+        top: 87%;
+    }
+}
+@media screen and (max-width: 530px) {
+    .containerForm {
+        width: 370px;
+        height: 600px;
+    }
+    .ligne1, .ligne2, .ligne3, .ligne4, .ligne5, .ligne6 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .labelPrenom, .labelNom, .labelEmail, .labelLigue, .labelPassword, .labelTelephone {
+        left: 59px;
+    }
+    .emailInp, .nomInp, .ligueInp, .prenomInp, .passwordInp, .telephoneInp {
+        left: 20%;
+    }
+    .logo-lock, .logo-mail, .logo-phone, .logo-trophy, .logo-user1, .logo-user2 {
+        left: 59px;
+    }
+    .labelNom{
+        top: 185px;
+    }
+    .nomInp {
+        top: 205px;
+    }
+    .ligne2 {
+        top: 235px;
+    }
+    .labelPassword {
+        top: 315px;
+    }
+    .passwordInp {
+        top: 335px;
+    }
+    .ligne4 {
+        top: 365px;
+    }
+    .labelLigue {
+        top: 445px;
+    }
+    .ligueInp {
+        top: 465px;
+    }
+    .ligne6 {
+        top: 495px;
+    }
+    .buttonInp {
+        top: 87%;
+    }
+}
