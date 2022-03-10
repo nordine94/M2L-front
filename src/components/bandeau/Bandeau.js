@@ -1,3 +1,4 @@
+import React from "react"
 import "./Bandeau.css";
 
 const Bandeau = ({ image, titre, texte }) => {

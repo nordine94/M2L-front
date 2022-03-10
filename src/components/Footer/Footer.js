@@ -1,3 +1,4 @@
+import React from "react"
 import "./Footer.css";
 
 import message from "../../assets/social/message.svg";

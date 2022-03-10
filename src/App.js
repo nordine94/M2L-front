@@ -3,7 +3,7 @@ import React, { useEffect }from "react";
 import "./App.css";
 import Home from "./pages/Accueil/Home";
 import axios from "axios";
-
+import Reservation from "./pages/reservation/reservation";
 function App() {
 
   const getUsers = async () => {
@@ -15,12 +15,13 @@ function App() {
     getUsers();
   }, [])
 
-  
+
   return (
     <div className="App">
       <Router>
           <Routes>
             <Route path="/" element={ <Home />} />
+            <Route path="/prestations" element={ <Reservation />} />
           </Routes>
       </Router>
      
