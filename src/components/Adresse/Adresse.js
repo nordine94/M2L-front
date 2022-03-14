@@ -6,8 +6,8 @@ import { NavLink } from "react-router-dom";
 
 const Adresse = () => {
   const coordonnees = {
-    adresse: "63, avenue Anatole France",
-    cp: 94600,
+    adresse: "30, avenue Anatole France",
+    cp: 54100,
     ville: "Nancy",
     tel: "01.48.84.07.33",
   };

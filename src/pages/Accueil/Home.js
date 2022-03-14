@@ -1,8 +1,6 @@
 import React from 'react';
 import Bandeau from '../../components/bandeau/Bandeau';
 import bandeauImage from "../../assets/img/Bandeau-Multisports.png"
-import Navbar from '../../components/NavBar/NavBar';
-import Footer from '../../components/Footer/Footer';
 
 export default function Home() {
 
@@ -17,13 +15,11 @@ export default function Home() {
 
   return (
     <div>
-        <Navbar />
-         <Bandeau
+        <Bandeau
         image={bandeauImage}
         titre={contenuBandeau.titre}
         texte={contenuBandeau.texte}
       />
-      <Footer />
     </div>
   )
 }

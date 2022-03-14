@@ -11,7 +11,7 @@
     rgba(0, 0, 0, 0.12) 0px -12px 10px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.titreForm {
+.containerForm .titreForm {
     position: relative;
     top: 45px;
     text-align: center;
@@ -20,7 +20,7 @@
     text-transform: uppercase;
     color: var(--texte);
 }
-.prenomInp, .nomInp, .emailInp, .passwordInp, .telephoneInp, .ligueInp {
+.containerForm .prenomInp, .nomInp, .emailInp, .passwordInp, .telephoneInp, .ligueInp {
     display: block;
     margin: 0px auto;
     outline: 0;
@@ -37,72 +37,72 @@
     color: var(--texte);
     cursor: pointer;
 }
-.prenomInp {
+.containerForm .prenomInp {
     position: absolute;
     left: 125px;
     top: 140px;
 }
-.nomInp {
+.containerForm .nomInp {
     position: absolute;
     left: 450px;
     top: 140px;
 }
-.emailInp {
+.containerForm .emailInp {
     position: absolute;
     left: 125px;
     top: 270px;
 }
-.passwordInp {
+.containerForm .passwordInp {
     position: absolute;
     left: 450px;
     top: 270px;
 }
-.telephoneInp {
+.containerForm .telephoneInp {
     position: absolute;
     left: 125px;
     top: 400px;
 }
-.ligueInp {
+.containerForm .ligueInp {
     position: absolute;
     left: 450px;
     top: 400px;
 }
-.labelPrenom, .labelNom, .labelEmail, .labelPassword, .labelTelephone, .labelLigue {
+.containerForm .labelPrenom, .labelNom, .labelEmail, .labelPassword, .labelTelephone, .labelLigue {
     font-family: var(--typo_texte);
     text-transform: uppercase;
     color: var(--texte);
 }
-.labelPrenom {
+.containerForm .labelPrenom {
     position: absolute;
     left: 110px;
     top: 120px;
 }
-.labelNom {
+.containerForm .labelNom {
     position: absolute;
     left: 435px;
     top: 120px;
 }
-.labelEmail {
+.containerForm .labelEmail {
     position: absolute;
     left: 110px;
     top: 251px;
 }
-.labelPassword{
+.containerForm .labelPassword{
     position: absolute;
     left: 435px;
     top: 251px;
 }
-.labelTelephone{
+.containerForm .labelTelephone{
     position: absolute;
     left: 110px;
     top: 380px;
 }
-.labelLigue{
+.containerForm .labelLigue{
     position: absolute;
     left: 435px;
     top: 380px;
 }
-.ligne1 {
+.containerForm .ligne1 {
     width: 250px;
     height: 3px;
     border-radius: 5px;
@@ -111,7 +111,7 @@
     left: 111px;
     top: 170px;
 }
-.ligne2 {
+.containerForm .ligne2 {
     width: 250px;
     height: 3px;
     border-radius: 5px;
@@ -120,7 +120,7 @@
     left: 436px;
     top: 170px;
 }
-.ligne3 {
+.containerForm .ligne3 {
     width: 250px;
     height: 3px;
     border-radius: 5px;
@@ -129,7 +129,7 @@
     left: 111px;
     top: 298px;
 }
-.ligne4 {
+.containerForm .ligne4 {
     width: 250px;
     height: 3px;
     border-radius: 5px;
@@ -138,7 +138,7 @@
     left: 436px;
     top: 298px;
 }
-.ligne5 {
+.containerForm .ligne5 {
     width: 250px;
     height: 3px;
     border-radius: 5px;
@@ -147,7 +147,7 @@
     left: 111px;
     top: 430px;
 }
-.ligne6 {
+.containerForm .ligne6 {
     width: 250px;
     height: 3px;
     border-radius: 5px;
@@ -156,7 +156,7 @@
     left: 436px;
     top: 430px;
 }
-.buttonInp {
+.containerForm .buttonInp {
     position: absolute;
     left: 50%;
     top: 83%;
@@ -168,11 +168,13 @@
     color: #FEFAF0;
     background: var(--texte);
     font-family: var(--typo_texte);
+    font-size: 20px;
+    padding-bottom: 4px;
 }
-.buttonInp:hover {
+.containerForm .buttonInp:hover {
     background: #094480;
 }
-.logo-user1 {
+.containerForm .logo-user1 {
     width: 25px;
     height: 25px;
     color: var(--texte);
@@ -180,7 +182,7 @@
     left: 110px;
     top: 140px;
 }
-.logo-user2 {
+.containerForm .logo-user2 {
     width: 25px;
     height: 25px;
     color: var(--texte);
@@ -188,7 +190,7 @@
     left: 435px;
     top: 140px;
 }
-.logo-lock {
+.containerForm .logo-lock {
     width: 25px;
     height: 25px;
     color: var(--texte);
@@ -196,7 +198,7 @@
     left: 435px;
     top: 270px;
 }
-.logo-mail {
+.containerForm .logo-mail {
     width: 25px;
     height: 25px;
     color: var(--texte);
@@ -204,7 +206,7 @@
     left: 111px;
     top: 270px;
 }
-.logo-phone {
+.containerForm .logo-phone {
     width: 25px;
     height: 25px;
     color: var(--texte);
@@ -212,7 +214,7 @@
     left: 111px;
     top: 401px;
 }
-.logo-trophy {
+.containerForm .logo-trophy {
     width: 25px;
     height: 25px;
     color: var(--texte);

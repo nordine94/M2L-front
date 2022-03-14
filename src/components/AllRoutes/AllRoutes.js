@@ -1,0 +1,20 @@
+import { Routes, Route } from "react-router-dom";
+import Home from "../../pages/Accueil/Home";
+import Cgv from "../../pages/Cgv/Cgv";
+import Login from "../../pages/IdentificationUser/LoginUser";
+import SignIn from "../../pages/Inscriptions/SignIn";
+import NotFound from "../../pages/NotFound/NotFound";
+
+const AllRoutes = () => {
+    return ( 
+        <Routes>
+        <Route path="/" element={ <Home />} />
+        <Route path="/inscriptions" element={ <SignIn />} />
+        <Route path='*' element={<NotFound/>}/>
+        <Route path="/login" element={ <Login />} />
+        <Route path="/cgv" element={ <Cgv/>} />
+      </Routes>
+     );
+}
+ 
+export default AllRoutes;

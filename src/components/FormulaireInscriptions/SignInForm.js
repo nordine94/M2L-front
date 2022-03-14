@@ -15,7 +15,7 @@ function SignInForm() {
         const elements = Array.from(e.target.elements);
         const body = {}
         elements
-            .filter(item => item.type != "submit")
+            .filter(item => item.type !== "submit")
             .forEach(item => body[item.name] = item.value)
         try {
            const res = await axios.post("http://localhost:8000/api/users",body)
