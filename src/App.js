@@ -5,12 +5,9 @@ import Home from "./pages/Accueil/Home";
 import SignIn from "./pages/Inscriptions/SignIn";
 import Login from "./pages/IdentificationUser/LoginUser";
 import axios from "axios";
-<<<<<<< HEAD
 import Reservation from "./pages/reservation/reservation";
-=======
 import { AuthContext } from "../src/components/context/auth";
 
->>>>>>> master
 function App() {
 
   const existingTokens = JSON.parse(localStorage.getItem("tokens"));
@@ -21,27 +18,16 @@ function App() {
     setAuthTokens(data);
   }
 
-<<<<<<< HEAD
-  useEffect (() => {
-    getUsers();
-  }, [])
-
-
-=======
   
->>>>>>> master
   return (
     <AuthContext.Provider value={{ authTokens, setAuthTokens: setTokens }}>
     <div className="App">
       <Router>
           <Routes>
             <Route path="/" element={ <Home />} />
-<<<<<<< HEAD
-            <Route path="/prestations" element={ <Reservation />} />
-=======
+            <Route path="/reservations" element={ <Reservation />} />
             <Route path="/inscriptions" element={ <SignIn />} />
             <Route path="/login" element={ <Login />} />
->>>>>>> master
           </Routes>
       </Router>
      
