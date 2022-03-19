@@ -1,0 +1,177 @@
+.containerFormResa {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    height: 600px;
+    background: var(--background_color);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 15px,
+    rgba(0, 0, 0, 0.12) 0px -12px 10px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.containerFormResa .titreForm {
+    position: relative;
+    top: 45px;
+    text-align: center;
+    font-family: var(--typo_texte);
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--texte);
+}
+.containerFormResa .ResaInp, .SelectRoomInp {
+    display: block;
+    margin: 0px auto;
+    outline: 0;
+    background: none;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 250px;
+    height: 35px;
+    border: 0;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    color: var(--texte);
+    cursor: pointer;
+}
+.containerFormResa .ResaInp {
+    position: absolute;
+    height: 50px;
+    left: 125px;
+    top: 255px;
+    font-family: var(--typo_texte);
+}
+.containerFormResa .SelectRoomInp {
+    position: absolute;
+    height: 50px;
+    left: 450px;
+    top: 250px;
+    padding-bottom: 0px;
+    font-family: var(--typo_texte);
+}
+.containerFormResa .labelResa, .labelSelectRoom {
+    font-family: var(--typo_texte);
+    text-transform: uppercase;
+    color: var(--texte);
+}
+.containerFormResa .labelResa {
+    position: absolute;
+    left: 110px;
+    top: 251px;
+}
+.containerFormResa .labelSelectRoom {
+    position: absolute;
+    left: 435px;
+    top: 251px;
+}
+.containerFormResa .ligne3 {
+    width: 250px;
+    height: 3px;
+    border-radius: 5px;
+    background: var(--texte);
+    position: absolute;
+    left: 111px;
+    top: 298px;
+}
+.containerFormResa .ligne4 {
+    width: 250px;
+    height: 3px;
+    border-radius: 5px;
+    background: var(--texte);
+    position: absolute;
+    left: 436px;
+    top: 298px;
+}
+.containerFormResa .buttonInp {
+    position: absolute;
+    left: 50%;
+    top: 83%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 9999px;
+    width: 120px;
+    height: 45px;
+    color: #FEFAF0;
+    background: var(--texte);
+    font-family: var(--typo_texte);
+    font-size: 20px;
+    padding-bottom: 4px;
+}
+.containerFormResa .buttonInp:hover {
+    background: #094480;
+}
+.containerFormResa .logo-SelectRoom {
+    width: 25px;
+    height: 25px;
+    color: var(--texte);
+    position: absolute;
+    left: 437px;
+    top: 270px;
+}
+.containerFormResa .logo-Resa {
+    width: 25px;
+    height: 25px;
+    color: var(--texte);
+    position: absolute;
+    left: 110px;
+    top: 270px;
+}
+@media screen and (max-width: 800px){
+    .containerFormResa {
+        width: 500px;
+        height: 600px;
+    }
+    .containerFormResa .labeSelectRoom {
+        left: 110px;
+        top: 315px;
+    }
+    .containerFormResa .SelectRoomInp {
+        left: 125px;
+        top: 335px;
+    }
+    .containerFormResa .ligne4 {
+        left: 110px;
+        top: 365px;
+    }
+    .containerFormResa .logo-SelectRoom {
+        left: 110px;
+        top: 335px;
+    }
+    .containerFormResa .buttonInp {
+        top: 87%;
+    }
+}
+@media screen and (max-width: 530px) {
+    .containerFormResa {
+        width: 370px;
+        height: 600px;
+    }
+    .containerFormResa .ligne3, .ligne4 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .containerFormResa .labelResa, .labelSelectRoom {
+        left: 59px;
+    }
+    .containerFormResa .ResaInp, .SelectRoomInp {
+        left: 20%;
+    }
+    .containerFormResa .logo-SelectRoom, .logo-Resa {
+        left: 59px;
+    }
+    .containerFormResa .labelSelectRoom {
+        top: 315px;
+    }
+    .containerFormResa .SelectRoomInp {
+        top: 335px;
+    }
+    .containerFormResa .ligne4 {
+        top: 365px;
+    }
+    .containerFormResa .buttonInp {
+        top: 87%;
+    }
+}

@@ -1,0 +1,14 @@
+.cgv h1, .cgv h3 {
+    text-align: center;
+    padding: 20px;
+    color: var(--texte);
+}
+.cgv li {
+    list-style-type: none;
+}
+
+.cgv {
+    margin: 0 10%;
+    background: var(--background_color);
+    color: var(--texte);
+}

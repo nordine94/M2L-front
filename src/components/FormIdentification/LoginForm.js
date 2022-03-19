@@ -5,7 +5,7 @@ import { faLock } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { useAuth } from "../context/auth";
 import axios from "axios";
-import { Link, Navigate, useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 
 function LoginForm() {
